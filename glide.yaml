@@ -1,4 +1,4 @@
-package: github.com/bxcodec/go-clean-arch
+package: nenjotsu/go-clean-arch
 import:
 - package: github.com/stretchr/testify
   version: v1.1.4
@@ -15,7 +15,7 @@ import:
 - package: github.com/spf13/afero
 - package: github.com/go-sql-driver/mysql
   version: v1.3
-- package: github.com/bxcodec/faker
+- package: bxcodec/faker
   version: ~1.1.0
 - package: gopkg.in/DATA-DOG/go-sqlmock.v1
   version: v1.2.0

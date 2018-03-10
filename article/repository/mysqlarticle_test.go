@@ -4,10 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bxcodec/go-clean-arch/author"
+	"github.com/nenjotsu/go-clean-arch/author"
 
-	models "github.com/bxcodec/go-clean-arch/article"
-	articleRepo "github.com/bxcodec/go-clean-arch/article/repository"
+	models "github.com/nenjotsu/go-clean-arch/article"
+	articleRepo "github.com/nenjotsu/go-clean-arch/article/repository"
+
 	"github.com/stretchr/testify/assert"
 	sqlmock "gopkg.in/DATA-DOG/go-sqlmock.v1"
 )

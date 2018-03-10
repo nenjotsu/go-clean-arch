@@ -1,7 +1,7 @@
 package article
 
 import "time"
-import "github.com/bxcodec/go-clean-arch/author"
+import "github.com/nenjotsu/go-clean-arch/author"
 
 type Article struct {
 	ID        int64         `json:"id"`

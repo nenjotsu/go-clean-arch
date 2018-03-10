@@ -4,11 +4,11 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/bxcodec/go-clean-arch/author"
+	"github.com/nenjotsu/go-clean-arch/author"
 
 	"github.com/sirupsen/logrus"
 
-	models "github.com/bxcodec/go-clean-arch/article"
+	models "github.com/nenjotsu/go-clean-arch/article"
 )
 
 type mysqlArticleRepository struct {

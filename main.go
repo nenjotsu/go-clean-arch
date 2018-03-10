@@ -5,12 +5,13 @@ import (
 	"fmt"
 	"net/url"
 
-	httpDeliver "github.com/bxcodec/go-clean-arch/article/delivery/http"
-	articleRepo "github.com/bxcodec/go-clean-arch/article/repository"
-	articleUcase "github.com/bxcodec/go-clean-arch/article/usecase"
-	_authorRepo "github.com/bxcodec/go-clean-arch/author/repository"
-	cfg "github.com/bxcodec/go-clean-arch/config/env"
-	"github.com/bxcodec/go-clean-arch/config/middleware"
+	httpDeliver "github.com/nenjotsu/go-clean-arch/article/delivery/http"
+	articleRepo "github.com/nenjotsu/go-clean-arch/article/repository"
+	articleUcase "github.com/nenjotsu/go-clean-arch/article/usecase"
+	_authorRepo "github.com/nenjotsu/go-clean-arch/author/repository"
+	cfg "github.com/nenjotsu/go-clean-arch/config/env"
+	"github.com/nenjotsu/go-clean-arch/config/middleware"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/labstack/echo"
 )

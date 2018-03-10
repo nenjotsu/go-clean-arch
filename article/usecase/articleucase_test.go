@@ -5,12 +5,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/bxcodec/go-clean-arch/author"
+	"github.com/nenjotsu/go-clean-arch/author"
 
-	models "github.com/bxcodec/go-clean-arch/article"
-	"github.com/bxcodec/go-clean-arch/article/repository/mocks"
-	ucase "github.com/bxcodec/go-clean-arch/article/usecase"
-	_authorMock "github.com/bxcodec/go-clean-arch/author/repository/mocks"
+	models "github.com/nenjotsu/go-clean-arch/article"
+	"github.com/nenjotsu/go-clean-arch/article/repository/mocks"
+	ucase "github.com/nenjotsu/go-clean-arch/article/usecase"
+	_authorMock "github.com/nenjotsu/go-clean-arch/author/repository/mocks"
+
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

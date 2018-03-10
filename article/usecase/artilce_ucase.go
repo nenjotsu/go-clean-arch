@@ -4,12 +4,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/bxcodec/go-clean-arch/author"
+	"github.com/nenjotsu/go-clean-arch/author"
+
 	"github.com/sirupsen/logrus"
 
-	"github.com/bxcodec/go-clean-arch/article"
-	"github.com/bxcodec/go-clean-arch/article/repository"
-	_authorRepo "github.com/bxcodec/go-clean-arch/author/repository"
+	"github.com/nenjotsu/go-clean-arch/article"
+	"github.com/nenjotsu/go-clean-arch/article/repository"
+	_authorRepo "github.com/nenjotsu/go-clean-arch/author/repository"
 )
 
 type ArticleUsecase interface {

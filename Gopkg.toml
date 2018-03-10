@@ -22,7 +22,7 @@
 
 
 [[constraint]]
-  name = "github.com/bxcodec/faker"
+  name = "bxcodec/faker"
   version = "~1.1.0"
 
 [[constraint]]

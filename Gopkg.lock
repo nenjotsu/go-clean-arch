@@ -2,7 +2,7 @@
 
 
 [[projects]]
-  name = "github.com/bxcodec/faker"
+  name = "bxcodec/faker"
   packages = ["."]
   revision = "7c5fff7ed02e14ac848ef83aee45b95627c96ae2"
   version = "v1.1.1"
